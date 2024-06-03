@@ -2,7 +2,7 @@ import random
 
 stonesNumber = random.randint(1,100)
 stonesMiningCost = random.randint(4,30)
-companyMiningCOst = stonesNumber*stonesMiningCost
+companyMiningCost = stonesNumber*stonesMiningCost
 stonesMarkup = stonesMiningCost/random.randint(2,5)
 stonesCost = stonesMarkup + stonesMiningCost
 stonesSold = random.randint(4,stonesMiningCost)
